@@ -34,6 +34,6 @@ docker run -it --rm --name astrobee \
         --user="astrobee" \
         --privileged \
         --network=host \
-        krpc/astrobee_sim-base:5.0.0 \
+        mizanul/krpc_astrobee_sim-base:5.0.0 \
         /astrobee_init.sh bash /tmp/bootstrap/run.sh
 
